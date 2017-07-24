@@ -10,7 +10,8 @@
     "flow start": "flow start",
     "flow stop": "flow stop",
     "flow status": "flow status",
-    "flow coverage": "flow coverage"
+    "flow coverage": "flow coverage",
+    "postinstall": "flow-scripts stub"
   },
   "dependencies": {
     "react": "16.0.0-alpha.12",

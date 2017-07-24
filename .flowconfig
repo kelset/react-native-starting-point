@@ -19,6 +19,9 @@
 ; "node_modules/react-native" but in the source repo it is in the root
 .*/Libraries/react-native/React.js
 
+# Using flow-scripts
+.*node_modules/.*
+
 [include]
 
 [libs]
