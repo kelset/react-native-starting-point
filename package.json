@@ -6,7 +6,11 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "lint": "eslint .",
-    "prettier": "eslint . --fix"
+    "prettier": "eslint . --fix",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage"
   },
   "dependencies": {
     "react": "16.0.0-alpha.12",
@@ -18,7 +22,12 @@
     "babel-preset-flow": "^6.23.0",
     "babel-preset-react-native": "2.1.0",
     "eslint": "^4.3.0",
-    "eslint-config-react-native-prettier": "^1.0.1",
+    "eslint-config-prettier": "^2.2.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.1.0",
     "flow-bin": "^0.47.0",
     "jest": "20.0.4",
     "react-test-renderer": "16.0.0-alpha.12"
